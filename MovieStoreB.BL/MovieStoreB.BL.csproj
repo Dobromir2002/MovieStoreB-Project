@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieStoreB.DL\MovieStoreB.DL.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="MovieStoreB.Tests" />
+	</ItemGroup>
+
+
+  <ItemGroup>
+    <Compile Include="..\MovieStoreB.Infrastructure\KafkaMockChannel.cs" />
+    <Compile Include="..\MovieStoreB.Infrastructure\Services/FakeDatabaseService.cs" />
+    <Compile Include="..\MovieStoreB.Infrastructure\Services/CacheDistributorService.cs" />
+    <Compile Include="..\MovieStoreB.Infrastructure\Services/CacheConsumerService.cs" />
+    <Compile Include="..\MovieStoreB.Infrastructure\Interfaces/ICacheDistributorService.cs" />
+    <Compile Include="..\MovieStoreB.Infrastructure\Interfaces/ICacheConsumerService.cs" />
+  </ItemGroup>
+</Project>

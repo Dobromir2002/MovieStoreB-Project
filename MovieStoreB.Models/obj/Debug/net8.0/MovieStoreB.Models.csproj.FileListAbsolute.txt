@@ -1,0 +1,12 @@
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\bin\Debug\net8.0\MovieStoreB.Models.deps.json
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\bin\Debug\net8.0\MovieStoreB.Models.dll
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\bin\Debug\net8.0\MovieStoreB.Models.pdb
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\MovieStoreB.Models.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\MovieStoreB.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\MovieStoreB.Models.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\MovieStoreB.Models.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\MovieStoreB.Models.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\MovieStoreB.Models.dll
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\refint\MovieStoreB.Models.dll
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\MovieStoreB.Models.pdb
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.Models\obj\Debug\net8.0\ref\MovieStoreB.Models.dll

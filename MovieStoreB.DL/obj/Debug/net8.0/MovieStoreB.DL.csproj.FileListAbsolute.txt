@@ -1,0 +1,15 @@
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieStoreB.DL.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieStoreB.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieStoreB.DL.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieStoreB.DL.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieStoreB.DL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\bin\Debug\net8.0\MovieStoreB.DL.deps.json
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\bin\Debug\net8.0\MovieStoreB.DL.dll
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\bin\Debug\net8.0\MovieStoreB.DL.pdb
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\bin\Debug\net8.0\MovieStoreB.Models.dll
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\bin\Debug\net8.0\MovieStoreB.Models.pdb
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieSto.9CB5B6CA.Up2Date
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieStoreB.DL.dll
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\refint\MovieStoreB.DL.dll
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\MovieStoreB.DL.pdb
+C:\Users\ASUS\Downloads\MovieStoreB_Fixed\MovieStoreB.DL\obj\Debug\net8.0\ref\MovieStoreB.DL.dll

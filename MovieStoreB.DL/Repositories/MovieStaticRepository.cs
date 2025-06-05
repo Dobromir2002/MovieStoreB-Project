@@ -1,12 +1,19 @@
 
+using Microsoft.Extensions.Options;
 using MovieStoreB.DL.DB;
 using MovieStoreB.DL.Interfaces;
+using MovieStoreB.DL.Repositories.MongoRepositories;
+using MovieStoreB.Models.Configurations;
 using MovieStoreB.Models.DTO;
 
 namespace MovieStoreB.DL.Repositories
 {
-    public class MovieStaticRepository : IMovieRepository
+    public class MovieStaticRepository : MoviesRepository
     {
+        public MovieStaticRepository(IOptionsMonitor<MongoDbConfiguration> mongoConfig) : base(mongoConfig)
+        {
+        }
+
         public Task<List<Movie>> GetMovies()
         {
             return Task.FromResult(StaticData.Movies.ToList());

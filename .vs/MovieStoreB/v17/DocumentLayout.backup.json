@@ -1,22 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|c:\\users\\asus\\downloads\\moviestoreb_fixed\\moviestoreb.models\\dto\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8092070F-785A-4380-B4A7-688384CCB1B2}|MovieStoreB.Tests\\MovieStoreB.Tests.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.tests\\movieservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8092070F-785A-4380-B4A7-688384CCB1B2}|MovieStoreB.Tests\\MovieStoreB.Tests.csproj|solutionrelative:moviestoreb.tests\\movieservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.bl\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.bl\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.dl\\repositories\\mongorepositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|solutionrelative:moviestoreb.dl\\repositories\\mongorepositories\\moviesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.dl\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|solutionrelative:moviestoreb.dl\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8092070F-785A-4380-B4A7-688384CCB1B2}|MovieStoreB.Tests\\MovieStoreB.Tests.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.tests\\blmovieserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8092070F-785A-4380-B4A7-688384CCB1B2}|MovieStoreB.Tests\\MovieStoreB.Tests.csproj|solutionrelative:moviestoreb.tests\\blmovieserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.models\\dto\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|solutionrelative:moviestoreb.models\\dto\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.dl\\interfaces\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|solutionrelative:moviestoreb.dl\\interfaces\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\controllers\\moviesblcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\controllers\\moviesblcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.models\\requests\\addmovierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|solutionrelative:moviestoreb.models\\requests\\addmovierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\validators\\addmovierequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\validators\\addmovierequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\validators\\testrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\validators\\testrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.bl\\services\\blmovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.bl\\services\\blmovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.models\\dto\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|solutionrelative:moviestoreb.models\\dto\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb_fixed\\moviestoreb.infrastructure\\services\\fakedatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.models\\responses\\fullmoviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|solutionrelative:moviestoreb.models\\responses\\fullmoviedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.dl\\repositories\\mongorepositories\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|solutionrelative:moviestoreb.dl\\repositories\\mongorepositories\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.bl\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.bl\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\services\\kafka\\kafkacachepublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\services\\kafka\\kafkacachepublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\controllers\\actorcachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\controllers\\actorcachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\services\\kafka\\kafkaactorconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\services\\kafka\\kafkaactorconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\services\\memory\\memoryactorstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\services\\memory\\memoryactorstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\services\\kafka\\kafkaactorpublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\services\\kafka\\kafkaactorpublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.bl\\actorservice.cs\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.bl\\actorservice.cs\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\services\\externalmovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\services\\externalmovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\controllers\\externalintegrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\controllers\\externalintegrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\services\\kafka\\kafkacacheconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\services\\kafka\\kafkacacheconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.infrastructure\\services\\cacheconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.infrastructure\\services\\cacheconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.infrastructure\\services\\cachedistributorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.infrastructure\\services\\cachedistributorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.infrastructure\\services\\fakedatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.infrastructure\\services\\fakedatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|c:\\users\\asus\\downloads\\moviestoreb_fixed\\moviestoreb.dl\\db\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\services\\memory\\memorymoviestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\services\\memory\\memorymoviestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.models\\configurations\\mongodbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3BFFAD-ADE9-4380-B97B-38BE146D81AE}|MovieStoreB.Models\\MovieStoreB.Models.csproj|solutionrelative:moviestoreb.models\\configurations\\mongodbconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.dl\\db\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|solutionrelative:moviestoreb.dl\\db\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|c:\\users\\asus\\downloads\\moviestoreb_fixed\\moviestoreb.dl\\repositories\\moviestaticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF18E570-DC7A-4D09-A504-6E8F881A9620}|MovieStoreB.DL\\MovieStoreB.DL.csproj|solutionrelative:moviestoreb.dl\\repositories\\moviestaticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb\\serviceextensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D91F9-F7C6-47C7-9651-B5934FFAED51}|MovieStoreB\\MovieStoreB.csproj|solutionrelative:moviestoreb\\serviceextensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|c:\\users\\asus\\downloads\\moviestoreb project\\moviestoreb.infrastructure\\interfaces\\icacheconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C47B32-2CFD-49B7-989F-02F209F0E3CE}|MovieStoreB.BL\\MovieStoreB.BL.csproj|solutionrelative:moviestoreb.infrastructure\\interfaces\\icacheconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,54 +163,447 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\DTO\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieStoreB.Models\\DTO\\Movie.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\DTO\\Movie.cs",
-              "RelativeToolTip": "MovieStoreB.Models\\DTO\\Movie.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAApAAAAAAAAAA==",
+              "Title": "MovieServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Tests\\MovieServiceTests.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Tests\\MovieServiceTests.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Tests\\MovieServiceTests.cs",
+              "RelativeToolTip": "MovieStoreB.Tests\\MovieServiceTests.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:59:44.329Z",
+              "WhenOpened": "2025-06-05T18:22:45.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FakeDatabaseService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
-              "RelativeDocumentMoniker": "MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
-              "RelativeToolTip": "MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwAsAAAA7AAAAAAAAAA==",
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.BL\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\Services\\MovieService.cs",
+              "RelativeToolTip": "MovieStoreB.BL\\Services\\MovieService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:57:49.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T16:59:14.396Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StaticData.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\DB\\StaticData.cs",
-              "RelativeDocumentMoniker": "MovieStoreB.DL\\DB\\StaticData.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\DB\\StaticData.cs",
-              "RelativeToolTip": "MovieStoreB.DL\\DB\\StaticData.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwAYAAABKAAAAAAAAAA==",
+              "Title": "MoviesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Repositories\\MongoRepositories\\MoviesRepository.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.DL\\Repositories\\MongoRepositories\\MoviesRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Repositories\\MongoRepositories\\MoviesRepository.cs",
+              "RelativeToolTip": "MovieStoreB.DL\\Repositories\\MongoRepositories\\MoviesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:53:02.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T16:58:45.176Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MovieStaticRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\Repositories\\MovieStaticRepository.cs",
-              "RelativeDocumentMoniker": "MovieStoreB.DL\\Repositories\\MovieStaticRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\Repositories\\MovieStaticRepository.cs",
-              "RelativeToolTip": "MovieStoreB.DL\\Repositories\\MovieStaticRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Interfaces\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.DL\\Interfaces\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Interfaces\\IMovieRepository.cs",
+              "RelativeToolTip": "MovieStoreB.DL\\Interfaces\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:51:51.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T16:58:16.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\DTO\\Actor.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Models\\DTO\\Actor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\DTO\\Actor.cs",
+              "RelativeToolTip": "MovieStoreB.Models\\DTO\\Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:44:03.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlMovieServiceUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Tests\\BlMovieServiceUnitTest.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Tests\\BlMovieServiceUnitTest.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Tests\\BlMovieServiceUnitTest.cs",
+              "RelativeToolTip": "MovieStoreB.Tests\\BlMovieServiceUnitTest.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAEwEkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:50:47.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MoviesBlController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\MoviesBlController.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Controllers\\MoviesBlController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\MoviesBlController.cs",
+              "RelativeToolTip": "MovieStoreB\\Controllers\\MoviesBlController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:57:27.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Program.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Program.cs",
+              "RelativeToolTip": "MovieStoreB\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:07:46.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddMovieRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\Requests\\AddMovieRequest.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Models\\Requests\\AddMovieRequest.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\Requests\\AddMovieRequest.cs",
+              "RelativeToolTip": "MovieStoreB.Models\\Requests\\AddMovieRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:09:26.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IActorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Interfaces\\IActorRepository.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.DL\\Interfaces\\IActorRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Interfaces\\IActorRepository.cs",
+              "RelativeToolTip": "MovieStoreB.DL\\Interfaces\\IActorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:45:31.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Validators\\TestRequestValidator.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Validators\\TestRequestValidator.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Validators\\TestRequestValidator.cs",
+              "RelativeToolTip": "MovieStoreB\\Validators\\TestRequestValidator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:01:47.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MovieStoreB\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:56:38.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BlMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\Services\\BlMovieService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.BL\\Services\\BlMovieService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\Services\\BlMovieService.cs",
+              "RelativeToolTip": "MovieStoreB.BL\\Services\\BlMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:18:57.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\DTO\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Models\\DTO\\Movie.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\DTO\\Movie.cs",
+              "RelativeToolTip": "MovieStoreB.Models\\DTO\\Movie.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:59:44.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddMovieRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Validators\\AddMovieRequestValidator.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Validators\\AddMovieRequestValidator.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Validators\\AddMovieRequestValidator.cs",
+              "RelativeToolTip": "MovieStoreB\\Validators\\AddMovieRequestValidator.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:04:25.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FullMovieDetails.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\Responses\\FullMovieDetails.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Models\\Responses\\FullMovieDetails.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\Responses\\FullMovieDetails.cs",
+              "RelativeToolTip": "MovieStoreB.Models\\Responses\\FullMovieDetails.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:09:04.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ActorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Repositories\\MongoRepositories\\ActorRepository.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.DL\\Repositories\\MongoRepositories\\ActorRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\Repositories\\MongoRepositories\\ActorRepository.cs",
+              "RelativeToolTip": "MovieStoreB.DL\\Repositories\\MongoRepositories\\ActorRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:46:11.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.BL\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\DependencyInjection.cs",
+              "RelativeToolTip": "MovieStoreB.BL\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:30:19.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CacheController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\CacheController.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Controllers\\CacheController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\CacheController.cs",
+              "RelativeToolTip": "MovieStoreB\\Controllers\\CacheController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:34:08.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KafkaCachePublisherService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaCachePublisherService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Services\\Kafka\\KafkaCachePublisherService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaCachePublisherService.cs",
+              "RelativeToolTip": "MovieStoreB\\Services\\Kafka\\KafkaCachePublisherService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:56:01.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ActorCacheController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\ActorCacheController.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Controllers\\ActorCacheController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\ActorCacheController.cs",
+              "RelativeToolTip": "MovieStoreB\\Controllers\\ActorCacheController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:53:53.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "KafkaActorConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaActorConsumerService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Services\\Kafka\\KafkaActorConsumerService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaActorConsumerService.cs",
+              "RelativeToolTip": "MovieStoreB\\Services\\Kafka\\KafkaActorConsumerService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:52:24.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MemoryActorStorage.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Memory\\MemoryActorStorage.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Services\\Memory\\MemoryActorStorage.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Memory\\MemoryActorStorage.cs",
+              "RelativeToolTip": "MovieStoreB\\Services\\Memory\\MemoryActorStorage.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:50:29.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KafkaActorPublisherService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaActorPublisherService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Services\\Kafka\\KafkaActorPublisherService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaActorPublisherService.cs",
+              "RelativeToolTip": "MovieStoreB\\Services\\Kafka\\KafkaActorPublisherService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:49:58.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "MovieStoreB\\Controllers\\ActorController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:48:48.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ActorService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\ActorService.cs\\ActorService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.BL\\ActorService.cs\\ActorService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\ActorService.cs\\ActorService.cs",
+              "RelativeToolTip": "MovieStoreB.BL\\ActorService.cs\\ActorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:47:35.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ExternalMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\ExternalMovieService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Services\\ExternalMovieService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\ExternalMovieService.cs",
+              "RelativeToolTip": "MovieStoreB\\Services\\ExternalMovieService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:07:11.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KafkaCacheConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaCacheConsumerService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Services\\Kafka\\KafkaCacheConsumerService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Kafka\\KafkaCacheConsumerService.cs",
+              "RelativeToolTip": "MovieStoreB\\Services\\Kafka\\KafkaCacheConsumerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:12:24.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ExternalIntegrationController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\ExternalIntegrationController.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Controllers\\ExternalIntegrationController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Controllers\\ExternalIntegrationController.cs",
+              "RelativeToolTip": "MovieStoreB\\Controllers\\ExternalIntegrationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:33:30.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CacheConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Services\\CacheConsumerService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Infrastructure\\Services\\CacheConsumerService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Services\\CacheConsumerService.cs",
+              "RelativeToolTip": "MovieStoreB.Infrastructure\\Services\\CacheConsumerService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:27:00.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CacheDistributorService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Services\\CacheDistributorService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Infrastructure\\Services\\CacheDistributorService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Services\\CacheDistributorService.cs",
+              "RelativeToolTip": "MovieStoreB.Infrastructure\\Services\\CacheDistributorService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:21:11.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ICacheConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Interfaces\\ICacheConsumerService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Infrastructure\\Interfaces\\ICacheConsumerService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Interfaces\\ICacheConsumerService.cs",
+              "RelativeToolTip": "MovieStoreB.Infrastructure\\Interfaces\\ICacheConsumerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:20:36.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FakeDatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
+              "RelativeToolTip": "MovieStoreB.Infrastructure\\Services\\FakeDatabaseService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:57:49.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MemoryMovieStorage.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Memory\\MemoryMovieStorage.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\Services\\Memory\\MemoryMovieStorage.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\Services\\Memory\\MemoryMovieStorage.cs",
+              "RelativeToolTip": "MovieStoreB\\Services\\Memory\\MemoryMovieStorage.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:11:29.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MongoDbConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\Configurations\\MongoDbConfiguration.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.Models\\Configurations\\MongoDbConfiguration.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\Configurations\\MongoDbConfiguration.cs",
+              "RelativeToolTip": "MovieStoreB.Models\\Configurations\\MongoDbConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:33:59.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\ServiceExtensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MovieStoreB\\ServiceExtensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\ServiceExtensions\\DependencyInjection.cs",
+              "RelativeToolTip": "MovieStoreB\\ServiceExtensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:33:39.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StaticData.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\DB\\StaticData.cs",
+              "RelativeDocumentMoniker": "MovieStoreB.DL\\DB\\StaticData.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\DB\\StaticData.cs",
+              "RelativeToolTip": "MovieStoreB.DL\\DB\\StaticData.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:53:02.843Z"
             }
           ]
         }

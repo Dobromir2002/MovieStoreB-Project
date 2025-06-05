@@ -1,14 +1,16 @@
 ﻿namespace MovieStoreB.Models.DTO
+
 {
     public class Movie
     {
-        public string Id { get; set; }
-
-        public string Title { get; set; }
-
         public int Year { get; set; }
 
-        public List<string> Actors { get; set; }
-        public string Genre { get; set; }
+        public string Id { get; set; } = null!;
+        public string Title { get; set; } = null!;
+        public string Genre { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public double Rating { get; set; }
+        public List<string> ActorIds { get; set; } = new();
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB\\MovieStoreB.csproj": {}
+    "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\MovieStoreB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.BL\\MovieStoreB.BL.csproj": {
+    "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\MovieStoreB.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.BL\\MovieStoreB.BL.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\MovieStoreB.BL.csproj",
         "projectName": "MovieStoreB.BL",
-        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.BL\\MovieStoreB.BL.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\MovieStoreB.BL.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.BL\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\MovieStoreB.DL.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\MovieStoreB.DL.csproj"
+              "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\MovieStoreB.DL.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\MovieStoreB.DL.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\MovieStoreB.DL.csproj": {
+    "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\MovieStoreB.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\MovieStoreB.DL.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\MovieStoreB.DL.csproj",
         "projectName": "MovieStoreB.DL",
-        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\MovieStoreB.DL.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\MovieStoreB.DL.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.DL\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.DL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -101,8 +101,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\MovieStoreB.Models.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\MovieStoreB.Models.csproj"
+              "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\MovieStoreB.Models.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\MovieStoreB.Models.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\MovieStoreB.Models.csproj": {
+    "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\MovieStoreB.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\MovieStoreB.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\MovieStoreB.Models.csproj",
         "projectName": "MovieStoreB.Models",
-        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\MovieStoreB.Models.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\MovieStoreB.Models.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.Models\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -227,14 +227,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB\\MovieStoreB.csproj": {
+    "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\MovieStoreB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB\\MovieStoreB.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\MovieStoreB.csproj",
         "projectName": "MovieStoreB",
-        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB\\MovieStoreB.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\MovieStoreB.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -255,8 +255,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.BL\\MovieStoreB.BL.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.BL\\MovieStoreB.BL.csproj"
+              "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\MovieStoreB.BL.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\MovieStoreB.BL.csproj"
               }
             }
           }
@@ -277,6 +277,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
@@ -285,6 +289,10 @@
               "target": "Package",
               "version": "[11.11.0, )"
             },
+            "Gee.External.Capstone": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Mapster": {
               "target": "Package",
               "version": "[7.4.0, )"
@@ -292,6 +300,10 @@
             "Mapster.DependencyInjection": {
               "target": "Package",
               "version": "[1.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -12,7 +12,7 @@ namespace MovieStoreB.BL
         public static IServiceCollection 
             AddBusinessDependencies(this IServiceCollection services)
         {
-            services.AddSingleton<IMovieService, MovieService>();
+            services.AddSingleton<MovieService, MovieService>();
             services.AddSingleton<IBlMovieService, BlMovieService>();
             services.AddSingleton<IExternalMovieApiService, ExternalMovieApiService>();
 

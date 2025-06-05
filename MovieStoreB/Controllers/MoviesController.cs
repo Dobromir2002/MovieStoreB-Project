@@ -1,79 +1,58 @@
-
-using MapsterMapper;
 using Microsoft.AspNetCore.Mvc;
-using MovieStoreB.BL.Interfaces;
+using MovieStoreB.BL;
 using MovieStoreB.Models.DTO;
 using MovieStoreB.Models.Requests;
 
 namespace MovieStoreB.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class MoviesController : ControllerBase
+    [Route("api/[controller]")]
+    public class MovieController : ControllerBase
     {
-        private readonly IMovieService _movieService;
-        private readonly IMapper _mapper;
-        private readonly ILogger<MoviesController> _logger;
+        private readonly MovieService _service;
 
-        public MoviesController(
-            IMovieService movieService,
-            IMapper mapper,
-            ILogger<MoviesController> logger)
+        public MovieController(MovieService service)
         {
-            _movieService = movieService;
-            _mapper = mapper;
-            _logger = logger;
+            _service = service;
         }
 
-        [HttpGet("GetAll")]
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _movieService.GetMovies();
-
-            if (result == null || !result.Any())
-            {
-                return NotFound();
-            }
-
-            return Ok(result);
+            var movies = await _service.GetAllAsync();
+            return Ok(movies);
         }
 
-        [HttpGet("GetById")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetById(string id)
         {
-            if (string.IsNullOrEmpty(id)) return BadRequest();
-
-            var result = await _movieService.GetMoviesById(id);
-
-            if (result == null) return NotFound();
-
-            return Ok(result);
+            var movie = await _service.GetByIdAsync(id);
+            return movie == null ? NotFound() : Ok(movie);
         }
 
-        [HttpPost("AddMovie")]
-        public async Task<IActionResult> AddMovie(
-            [FromBody] AddMovieRequest movieRequest)
+        [HttpPost]
+        public async Task<IActionResult> Add([FromBody] AddMovieRequest request)
         {
-            if (movieRequest == null) return BadRequest();
+            var movie = new Movie
+            {
+                Id = Guid.NewGuid().ToString(), // ?? генерираме ID
+                Title = request.Title,
+                Genre = request.Genre,
+                Description = request.Description,
+                Rating = request.Rating,
+                Year = request.Year, // ?? взимаме годината
+                ActorIds = request.ActorIds // ?? свързваме актьори
+            };
 
-            var movie = _mapper.Map<Movie>(movieRequest);
-
-            await _movieService.AddMovie(movie);
-
-            return Ok();
+            await _service.AddAsync(movie);
+            return CreatedAtAction(nameof(GetById), new { id = movie.Id }, movie);
         }
 
-        [HttpDelete("Delete")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
-            if (string.IsNullOrEmpty(id)) return BadRequest($"Wrong id: {id}");
-
-            await _movieService.DeleteMovie(id);
-
-            return Ok();
+            await _service.DeleteAsync(id);
+            return NoContent();
         }
     }
 }

@@ -1,8 +1,6 @@
-﻿using MapsterMapper;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MovieStoreB.BL.Interfaces;
-using MovieStoreB.Models.DTO;
-using MovieStoreB.Models.Requests;
+using Microsoft.Extensions.Logging;
 
 namespace MovieStoreB.Controllers
 {
@@ -11,26 +9,26 @@ namespace MovieStoreB.Controllers
     public class MoviesBlController : ControllerBase
     {
         private readonly IBlMovieService _movieService;
-        private readonly ILogger<MoviesController> _logger;
+        private readonly ILogger<MoviesBlController> _logger;
 
         public MoviesBlController(
             IBlMovieService movieService,
-            ILogger<MoviesController> logger)
+            ILogger<MoviesBlController> logger)
         {
             _movieService = movieService;
             _logger = logger;
         }
 
-       
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
         {
-            var result =  await _movieService.GetAllMovieDetails();
+            var result = await _movieService.GetAllMovieDetails();
 
             if (result == null || !result.Any())
             {
                 return NotFound();
             }
+
             return Ok(result);
         }
     }
@@ -38,7 +36,6 @@ namespace MovieStoreB.Controllers
     public class TestRequest
     {
         public int Id { get; set; }
-
         public string Title { get; set; }
     }
 }

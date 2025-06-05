@@ -5,7 +5,7 @@ using MovieStoreB.Models.Responses;
 
 namespace MovieStoreB.BL.Services
 {
-    internal class BlMovieService : IBlMovieService
+    public class BlMovieService : IBlMovieService
     {
         private readonly IMovieService _movieService;
         private readonly IActorRepository _actorRepository;
@@ -19,22 +19,26 @@ namespace MovieStoreB.BL.Services
         public async Task<List<FullMovieDetails>> GetAllMovieDetails()
         {
             var result = new List<FullMovieDetails>();
-
             var movies = await _movieService.GetMovies();
 
             foreach (var movie in movies)
             {
-                var movieDetails = new FullMovieDetails();
-                movieDetails.Title = movie.Title;
-                movieDetails.Year = movie.Year;
-                movieDetails.Id = movie.Id;
-                
-                var actors = await
-                    _actorRepository.GetActors(movie.Actors);
+                var actorList = await _actorRepository.GetActors(movie.ActorIds);
 
-                movieDetails.Actors = actors;
+                var movieDetails = new FullMovieDetails
+                {
+                    Id = movie.Id,
+                    Title = movie.Title,
+                    Year = movie.Year,
+                    Genre = movie.Genre,
+                    Description = movie.Description,
+                    Rating = movie.Rating,
+                    Actors = actorList.ToList()
+                };
+
                 result.Add(movieDetails);
             }
+
             return result;
         }
     }

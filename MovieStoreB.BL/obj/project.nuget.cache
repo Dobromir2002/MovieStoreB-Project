@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R3GQAWjWw5Y=",
+  "dgSpecHash": "A1b7d6tg//4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB_Fixed\\MovieStoreB.BL\\MovieStoreB.BL.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Downloads\\MovieStoreB Project\\MovieStoreB.BL\\MovieStoreB.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

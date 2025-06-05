@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using MovieStoreB.DL.Interfaces;
 using MovieStoreB.Models.Configurations;
@@ -7,66 +6,44 @@ using MovieStoreB.Models.DTO;
 
 namespace MovieStoreB.DL.Repositories.MongoRepositories
 {
-    internal class ActorRepository : IActorRepository
+    public class ActorRepository : IActorRepository
     {
         private readonly IMongoCollection<Actor> _actorCollection;
-        private readonly ILogger<ActorRepository> _logger;
 
-        public ActorRepository(ILogger<ActorRepository> logger, IOptionsMonitor<MongoDbConfiguration> mongoConfig)
+        public ActorRepository(IOptionsMonitor<MongoDbConfiguration> config)
         {
-            _logger = logger;
-
-            if (string.IsNullOrEmpty(mongoConfig?.CurrentValue?.ConnectionString) || string.IsNullOrEmpty(mongoConfig?.CurrentValue?.DatabaseName))
-            {
-                _logger.LogError("MongoDb configuration is missing");
-
-                throw new ArgumentNullException("MongoDb configuration is missing");
-            }
-
-            var client = new MongoClient(mongoConfig.CurrentValue.ConnectionString);
-            var database = client.GetDatabase(mongoConfig.CurrentValue.DatabaseName);
-
-            _actorCollection = database.GetCollection<Actor>($"{nameof(Actor)}s");
+            var client = new MongoClient(config.CurrentValue.ConnectionString);
+            var db = client.GetDatabase(config.CurrentValue.DatabaseName);
+            _actorCollection = db.GetCollection<Actor>("Actors");
         }
 
-        public async Task AddActor(Actor movie)
+        public async Task<IEnumerable<Actor>> GetActors(List<string> ids)
         {
-            try
-            {
-                movie.Id = Guid.NewGuid().ToString();
-
-                await _actorCollection.InsertOneAsync(movie);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
+            var result = await _actorCollection.FindAsync(actor => ids.Contains(actor.Id));
+            return await result.ToListAsync();
         }
 
-        public async Task DeleteActor(string id)
+        public async Task<Actor?> GetByIdAsync(string id)
         {
-            await _actorCollection.DeleteOneAsync(m => m.Id == id);
+            var result = await _actorCollection.FindAsync(a => a.Id == id);
+            return await result.FirstOrDefaultAsync();
         }
 
-        public async Task<List<Actor>> GetActors()
+        public async Task AddAsync(Actor actor)
         {
-            var result =  await _actorCollection.FindAsync(m => true);
-
-            return result.ToList();
+            actor.Id = Guid.NewGuid().ToString();
+            await _actorCollection.InsertOneAsync(actor);
         }
 
-        public async Task<Actor?> GetById(string id)
+        public async Task DeleteAsync(string id)
         {
-           var result =  await _actorCollection.FindAsync(m => m.Id == id);
-
-           return result.FirstOrDefault();
+            await _actorCollection.DeleteOneAsync(a => a.Id == id);
         }
 
-        public async Task<List<Actor>> GetActors(List<string> actorIds)
+        
+        public async Task<IEnumerable<Actor>> GetAllAsync()
         {
-            var result = await
-                _actorCollection.FindAsync(m => actorIds.Contains(m.Id.ToString()));
-
+            var result = await _actorCollection.FindAsync(_ => true);
             return await result.ToListAsync();
         }
     }
